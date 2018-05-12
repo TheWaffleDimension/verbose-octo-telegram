@@ -8,14 +8,23 @@ To be decided.
 
 ## Documentation
 We have 3 types in 3l, we'll represent them using these symbols:
+
+#
+
 | Name     | Symbol |
 | -------- | ------ |
 | Float    | $      |
 | Integer  | #      |
 | Boolean  | &      |
 | Variable | .      |
+
+-------
+
 Expressions take types, and generate new ones:
 As per tradition, we're using s-exps.
+
+#
+
 | Function Use | Output Type |
 | ------------ | ----------- |
 | (+ $# $#)    | $#          |
@@ -27,6 +36,9 @@ As per tradition, we're using s-exps.
 | (or &)       | &           |
 | (not &)      | &           |
 | (input)      |             |
+
+-------
+
 Expressions are then evaluated, then passed to Blocks:
  + [print $#&]
  + [set . : $#&]
