@@ -94,5 +94,5 @@ fizzBuzz:
 ### Steps in our master plan to world dominance:
  - [ ] Input/Output (brainf: ,.)
  - [ ] Data Storage/Retrieval (><)
- - [ ] operations (+-)
- - [ ] Loops (if statements can be modeled from loops, when you thing about it) ([])
+ - [ ] Operations (+-)
+ - [ ] Loops (if statements can be modeled from loops, when you think about it) ([])
